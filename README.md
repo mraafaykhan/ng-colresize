@@ -8,6 +8,8 @@ Access to two Directives: CornerResizeDirective and EdgeResizeDirective. Use any
 
 ## Usage
 
+First import the library module into your main app.module file: `import { ColresizeModule } from 'colresize';`
+
 Add the `crCornerResize` directive to your table element for CornerResizeDirective (only use crCornerResize to elements with innerHTML of plain text):
 
 ![](gifs/cornerPic.png)
