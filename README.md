@@ -1,27 +1,27 @@
-# LibDemo
+# Table Column Resize
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Access to two Directives: CornerResizeDirective and EdgeResizeDirective. Use anyone to be able to resize of any html table
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Add the `crCornerResize` directive to your table element for CornerResizeDirective (only use crCornerResize to elements with innerHTML of plain text):
+
+![](gifs/cornerResize.gif)
+
+Add the `crEdgeResize` directive to your table element for EdgeResizeDirective:
+
+![](gifs/edgeResize.gif)
+
+EdgeResizeDirective can also be given a highlight color input using the `crEdgeResize='pink'` syntax:
+
+![](gifs/colorChange.gif)
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Clone the project
+- Build the colresize library using `ng build colresize` from the root of the project
+- Use `ng serve` to launch the test app
