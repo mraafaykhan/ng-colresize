@@ -10,15 +10,21 @@ Access to two Directives: CornerResizeDirective and EdgeResizeDirective. Use any
 
 Add the `crCornerResize` directive to your table element for CornerResizeDirective (only use crCornerResize to elements with innerHTML of plain text):
 
-![](gifs/cornerResize.gif)
+![](gifs/cornerPic.png)
+
+![](gifs/corner.gif)
 
 Add the `crEdgeResize` directive to your table element for EdgeResizeDirective:
 
-![](gifs/edgeResize.gif)
+![](gifs/edgePic.png)
+
+![](gifs/edge.gif)
 
 EdgeResizeDirective can also be given a highlight color input using the `crEdgeResize='pink'` syntax:
 
-![](gifs/colorChange.gif)
+![](gifs/colorPic.png)
+
+![](gifs/color.gif)
 
 ## Build
 
