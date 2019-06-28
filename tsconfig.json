@@ -18,6 +18,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "colresize": [
+        "dist/colresize"
+      ],
+      "colresize/*": [
+        "dist/colresize/*"
+      ]
+    }
   }
 }
