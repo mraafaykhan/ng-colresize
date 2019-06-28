@@ -13,7 +13,8 @@ import { EdgeResizeDirective } from './edgeresize.directive';
   ],
   exports: [
     ColresizeComponent,
-    CornerResizeDirective
+    CornerResizeDirective,
+    EdgeResizeDirective
   ]
 })
 export class ColresizeModule { }

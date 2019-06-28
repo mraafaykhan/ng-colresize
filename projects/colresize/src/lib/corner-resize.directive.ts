@@ -21,6 +21,7 @@ export class CornerResizeDirective implements AfterViewInit {
       const div = this.renderer.createElement('div');
       this.renderer.setStyle(div, 'resize', 'horizontal');
       this.renderer.setStyle(div, 'overflow', 'hidden');
+      this.renderer.setStyle(child, 'width', '0px');
 
       // Take all inner html of th element and insert it into the newly created div
       const content = child.innerHTML;
