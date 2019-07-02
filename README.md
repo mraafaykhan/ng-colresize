@@ -31,6 +31,7 @@ EdgeResizeDirective can also be given a highlight color input using the `crEdgeR
 ## Build
 
 - Clone the project
+- Use `npm install` to install all dependencies
 - Build the colresize library using `ng build colresize` from the root of the project
 - Use `ng serve` to launch the test app
 
